@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+G:\codingAndUniversityFiles\JavaProjects\AlgosAndLogic\AlgosAndLogic-JAVA-\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1523367761.index
+551011359.index

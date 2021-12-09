@@ -1,0 +1,13 @@
+
+public class ClassA {
+	// Single line comment
+	
+	/*
+	 * Multiple lines comment
+	 * */
+	
+	/**
+	 * Project documentation (Example: javadoc)
+	 * 
+	 */
+}

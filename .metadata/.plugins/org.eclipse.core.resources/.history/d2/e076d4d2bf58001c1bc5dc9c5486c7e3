@@ -1,0 +1,7 @@
+package class06092921;
+
+public class ClassATester {
+	public static void main(String[] args) {
+		ClassA car01 = new ClassA();
+	}
+}

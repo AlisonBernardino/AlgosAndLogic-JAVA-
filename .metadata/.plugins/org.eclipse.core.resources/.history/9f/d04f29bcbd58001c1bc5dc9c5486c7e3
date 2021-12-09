@@ -1,0 +1,16 @@
+
+public class ClassA {
+	// Single line comment
+	
+	/*
+	 * Multiple lines comment
+	 * */
+	
+	/**
+	 * Project documentation (Example: javadoc)
+	 * 
+	 */
+
+	float gasolineQuantity = 80.5f;
+	
+}

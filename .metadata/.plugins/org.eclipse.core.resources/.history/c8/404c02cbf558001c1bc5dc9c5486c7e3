@@ -1,0 +1,50 @@
+package class06092921;
+
+import java.util.Scanner;
+
+public class ClassA {
+	// Single line comment
+
+	/*
+	 * Multiple lines comment
+	 * */
+
+	/**
+	 * Project documentation (Example: javadoc)
+	 * 
+	 */
+
+	float gasolineQuantity = 80.5f;
+
+	public void showGasolineStatus() {
+		if(gasolineQuantity >= 75f && gasolineQuantity <= 100f) {
+			System.out.println("Fuel level = GREEN");
+		}else {
+			System.out.println("Fuel level = RED");
+		}
+	}
+
+	public void showNewGasolineStatus() {
+		if(gasolineQuantity >= 75f && gasolineQuantity <= 100f){ 
+			System.out.println("Fuel level = GREEN");
+		}else if(gasolineQuantity >= 50f && gasolineQuantity < 75f) {
+			System.out.println("Fuel level = YELLOW");
+		}else{
+			System.out.println("Fuel level = RED");
+		}
+	}
+
+	public String showAvailableCarMarksByLetter() {
+		System.out.println("Insert your desired car mark initial letter = ");
+		Scanner userInsertion = new Scanner(System.in);
+		String typedLetter = userInsertion.next();
+
+		switch(typedLetter) {
+		case "L":
+			System.out.println("Available cars by name - L letter");
+			System.out.println("Lamborghini");
+			System.out.println("Lotus");
+		}
+	}
+
+}

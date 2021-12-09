@@ -1,0 +1,34 @@
+
+public class ClassA {
+	// Single line comment
+	
+	/*
+	 * Multiple lines comment
+	 * */
+	
+	/**
+	 * Project documentation (Example: javadoc)
+	 * 
+	 */
+
+	float gasolineQuantity = 80.5f;
+	
+	public void showGasolineStatus() {
+		if(gasolineQuantity >= 75f && gasolineQuantity <= 100f) {
+			System.out.println("Fuel level = GREEN");
+		}else {
+			System.out.println("Fuel level = RED");
+		}
+	}
+	
+	public void showNewGasolineStatus() {
+		if(gasolineQuantity >= 75f && gasolineQuantity <= 100f){ 
+			System.out.println("Fuel level = GREEN");
+		}else if(gasolineQuantity >= 50f && gasolineQuantity < 75f) {
+			System.out.println("Fuel level = YELLOW");
+		}else(){
+			System.out.println("Fuel level = RED");
+		}
+	}
+	
+}
