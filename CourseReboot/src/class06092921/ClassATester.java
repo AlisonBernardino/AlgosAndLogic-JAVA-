@@ -13,6 +13,7 @@ public class ClassATester {
 		car01.showGasolineStatus();
 		car01.showNewGasolineStatus();
 		
-		car01.showCarMarksByLetter();
+		System.out.println(car01.showCarMarksByLetter());
+		car01.showVehicleEngines();
 	}
 }
